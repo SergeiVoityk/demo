@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/%22%3E">
+    <link rae="stylesheet" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stile.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <title>Focus</title>
+    <style>
+        body {
+            background: url(./img/ANDY5406ss.jpg) no-repeat center;
+            background-size: 1920px;
+            height: 500px;
+        }
+       </style>
+</head>
+    <!--Body-->
+<body>
+     <!--Heder-->
+    <heder class="heder">
+        <div class="container">
+            <!--Logo-->
+            <div class="logo">
+                <img class="focus" src="img/logo.png" alt="#">
+                <!--Навигация-->
+                <div class="info">
+                
+                <h3 class="address">Наш адрес: ул. Газовая д. 10,метро Петроградская/Чкаловская</h1>
+                    <a class="phone" href="tel:+79219077837">7(921)-907-78-37</a>
+            </div>
+                <ul> 
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Интерьер студии</a></li>
+                    <li><a href="#">Заказать услугу</a></li>
+                    <li><a href="#">Это интересно</a></li>
+                    <li><a href="#">Наши услуги</a>
+                        <ul>
+                          <li><a href="#" >Аренда зала</a></li>
+                          <li><a href="#" >Фотосъёмка</a></li>
+                          <li><a href="#" >Арнеда оборудования</a></li>
+                        </ul>
+                    <li><a href="#" >Наша Команда</a>
+                    <li><a href="#" >Контакты</a></li>
+                    </ul>
+            </div>
+            
+        </div>
+    </heder>
+    <section>
+        <div class="container">
+
+            <h1 class="service">Заказать услугу</h1>
+            <form action="" class="orderform">
+                <p class="orderinputchange">
+                    <input list="character" class="orderinput" placeholder="Выберите услугу">
+                    <datalist id="character">
+                        <option value="Аренда зала"></option>
+                        <option value="Фотосъемка"></option>
+                        <option value="Аренда оборудования"></option>
+                    </datalist>
+                </p>
+                <input type="text" class="orderinput" placeholder="ФИО">
+                <input type="tel" class="orderinput" placeholder="Телефон">
+                <input type="email" class="orderinput"   placeholder="Электронная почта">
+                <input type="date" class="orderinput" placeholder="Дата">
+                <button class="button__send__button">Отправить</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
